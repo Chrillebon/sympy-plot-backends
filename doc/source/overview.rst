@@ -117,17 +117,17 @@ function:
    )
 
 
-Polar plot with Matplotlib:
+Polar plot with Matplotlib: (also using ``from spb import plot_polar``)
 
 .. plot::
    :context: reset
    :include-source: True
 
    from sympy import symbols, sin, cos, pi, latex
-   from spb import plot_polar
+   from dtumathtools import *
    x = symbols("x")
    expr = sin(2 * x) * cos(5 * x) + pi / 2
-   plot_polar(expr, (x, 0, 2 * pi),
+   dtuplot.plot_polar(expr, (x, 0, 2 * pi),
        polar_axis=True, ylim=(0, 3), title="$%s$" % latex(expr))
 
 

@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Sympy Plotting Backends's documentation!
-===================================================
+Welcome to DTUMathTools's documentation!
+========================================
+
+This is not my documentation...
 
 This Python module contains a few plotting backends that can be used with
 `SymPy <http://github.com/sympy/sympy/>`_ and `Numpy <https://github.com/numpy/numpy>`_.

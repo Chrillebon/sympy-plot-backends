@@ -24,9 +24,9 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sympy Plotting Backends'
-copyright = '2021, Davide Sandona\''
-author = 'Davide Sandona\''
+project = 'DTUMathTools'# 'Sympy Plotting Backends'
+copyright = '2023, Christian Mikkelstrup'#'2021, Davide Sandona\''
+author = 'Christian Mikkelstrup'#'Davide Sandona\''
 
 here = os.path.dirname(__file__)
 repo = os.path.join(here, '..', '..')
@@ -141,7 +141,7 @@ html_static_path = [
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SympyPlottingBackendsdoc'
+htmlhelp_basename = 'DTUMathToolsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -168,8 +168,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SympyPlottingBackends.tex', 'Sympy Plotting Backends Documentation',
-     'Davide Sandona\'', 'manual'),
+    (master_doc, 'DTUMathTools.tex', 'DTUMathTools Documentation',
+     'Christian Mikkelstrup\'', 'manual'),
 ]
 
 
@@ -178,7 +178,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sympyplottingbackends', 'Sympy Plotting Backends Documentation',
+    (master_doc, 'dtumathtools', 'DTUMathTools Documentation',
      [author], 1)
 ]
 

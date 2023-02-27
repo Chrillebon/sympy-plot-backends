@@ -15,3 +15,4 @@ kaleido
 # vtk
 # to satidfy ipympl requirements we need
 ipywidgets<8,>=7.6.0
+dtumathtools>=1.0.1
